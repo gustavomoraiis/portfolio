@@ -1,43 +1,4 @@
 @charset "UTF-8";
-
-/* Litho - v2.0
- * https://www.themezaa.com/
- * Copyright (c) 2021 themezaa.com
-
-----------------------------------
-Table of contents
-
-01. Google font
-02. Reset
-03. Typography
-04. Background color
-05. Custom
-06. Button
-07. Border
-08. Video
-09. Background image
-10. Margin
-11. Padding
-12. Display and overflow
-13. Position
-14. Width
-15. Height
-16. Icon
-17. Magnific popup
-18. Header
-19. Page title
-20. Swiper carousel
-21. Grid
-22. Portfolio
-23. Blog
-24. Shop
-25. Elements
-26. Footer
-27. home and other pages
-28. Others
- 
-*/
-
 /* ===================================
     01. Google font
 ====================================== */
@@ -673,11 +634,11 @@ blockquote footer { color: #828282; }
 .absolute-middle-center.move-top-bottom, .absolute-middle-center.move-bottom-top { margin-left: -10px; margin-top: -10px; }
 
 /* checkbox - radio button */
-input[type="checkbox"] { width: auto; }
+/* input[type="checkbox"] { width: auto; }
 input[type="checkbox"] + label { color: #939393; font-weight: normal; margin-bottom: 0; }
 input[type="checkbox"]:checked + label { color: inherit; }
 input[type="checkbox"] + label span { display:inline-block; width:15px; height:15px; margin:0 10px 0 0; vertical-align:middle; cursor:pointer; border: 1px solid #d9d9d9; border-radius: 0; position: relative; }
-input[type="checkbox"]:checked + label span:after { position: absolute; top: 0; left: 0; height: 100%; width: 100%; text-align: center; font-size: 12px; line-height: 15px; content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; }
+input[type="checkbox"]:checked + label span:after { position: absolute; top: 0; left: 0; height: 100%; width: 100%; text-align: center; font-size: 12px; line-height: 15px; content: "\f00c"; font-family: "Font Awesome 5 Free"; font-weight: 900; } */
 
 input[type="radio"] { width: auto; }
 input[type="radio"] + label { font-weight: normal; margin-bottom: 0; }
@@ -2678,8 +2639,8 @@ header.sticky .navbar.responsive-sticky .navbar-brand img { max-height: 32px; }
 header .navbar.responsive-sticky .navbar-brand img, .navbar.responsive-sticky .header-cart-icon a > i, .navbar.responsive-sticky .header-cart-icon a > i, .navbar.responsive-sticky .header-language a > i, .navbar.responsive-sticky .header-search-icon a > i, .navbar.responsive-sticky .header-push-button a > i{ transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; }
 
 /* header sidebar */
-.sidebar-nav-action { position: fixed; top: 0; left: 0; width: 65px; height: 100%; z-index: 10006; padding: 30px 0; }
-.page-wrapper { padding-left: 65px; }
+.sidebar-nav-action { position: fixed; top: 0; left: 0; width: 200px; height: 100%; z-index: 10006; padding: 30px 0; }
+.page-wrapper { padding-left: 200px; }
 .sticky-nav-aaa { padding-left: 290px; }
 .sidebar-nav-action-main { display: flex; flex-flow: column; justify-content: space-between; text-align: center; height: 100%; }
 
@@ -2874,7 +2835,7 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 .show-menu .push-button > span:nth-child(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); }
 .show-menu .push-button > span:nth-child(4) { top: 7px; width: 0%; }
 .push-button.alt-push-button-left > span:nth-child(2) { width: 22px; }
-.side-menu-button { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.side-menu-button { position: absolute; top: 50%; right: 15px; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
 .left-sidebar-nav .side-menu-button { left: auto; right:15px; text-align: right; -webkit-transform: translate(0,-50%); -moz-transform: translate(0,-50%); -ms-transform: translate(0,-50%); -o-transform: translate(0,-50%); transform: translate(0,-50%); }
 .sidebar-social-icon li { margin: 15px 0; }
 
@@ -4926,3 +4887,4 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
 .gdpr-container { position: absolute; bottom: 0; width: 100%; padding: 20px 20px; }
 .gdpr-container .gdpr-content { display: inline-block; margin-right: 20px;}
 .gdpr-container .btn { display: inline-block; }
+
