@@ -189,11 +189,10 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .text-gradient-tussock-greenish-slate { background: linear-gradient(90deg, rgba(191,140,76,1) 0%, rgba(68,90,88,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .text-gradient-light-purple-light-red { background: linear-gradient(to right, #975ade, #af63d2, #d473c0, #ef7da7, #e6686f); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .text-gradient-light-brownish-orange-black { background: linear-gradient(to right, #e79e57, #9d9049, #62794c, #405c4c, #353d3c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-.text-gradient-turquoise-green-yellowish { background: linear-gradient(to right, #069e2d,#2fff1c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .text-gradient-red-violet-purple { background-image: linear-gradient(to right, #b93c90, #a92a96, #951a9d, #7b10a5, #5412ae); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .text-gradient-orange-pink, .btn-link.text-gradient-orange-pink, a.text-gradient-orange-pink, a.text-gradient-orange-pink-hover:hover { background: linear-gradient(to right, #ff6557 0%, #ff367c 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .text-gradient-fuego-turquoise, .btn-link.text-gradient-fuego-turquoise, a.text-gradient-fuego-turquoise, a.text-gradient-fuego-turquoise-hover:hover { background: linear-gradient(to left, #0cd6a2, #56de9c, #91dc5d, #aedb40, #c7da26); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-
+.text-gradient-green { background: linear-gradient(to right, #069e2d,#2fff1c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 /* text stroke */
 .text-border { -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white; }
 
@@ -4888,3 +4887,15 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
 .gdpr-container .gdpr-content { display: inline-block; margin-right: 20px;}
 .gdpr-container .btn { display: inline-block; }
 
+ /* flags language */
+ .content-flags img{
+    border-radius: 10px;
+    width: 50px;
+ }
+ .content-flags li{
+    display: inline-block;
+ }
+
+ .content-flags li a img:not(.active) {
+    opacity: .5;
+}
