@@ -325,7 +325,13 @@
     background: #e67e22;
   }
 
-  /* ######## CSS DARK ####### */
-.dark .bg-cod-gray{
+/* ######## CSS DARK ####### */
+.light .bg-cod-gray{
     background-color: #e67e22 !important;
+}
+.light .bg-black{
+  background-color: #e67e22 !important;
+}
+.dark .card-stack .card-stack-header img{
+  filter: brightness(0) invert(1);
 }
