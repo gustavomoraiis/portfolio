@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*!
- * Litho - v2.0
- * https://www.themezaa.com/
- * Copyright (c) 2021 themezaa.com
- */
-
 @media (min-width: 1901px) {
     .litho-parallax-bg { width: 45%; }
 }
@@ -4754,6 +4748,15 @@
 }
 
 @media (max-width: 767px) {
+    .card-stack .card-stack-header{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+    .card-stack .card-stack-header img{
+       margin-bottom: 20px;
+    }
     /* reset */
     html { font-size: 11px }
     .xs-center-col { float:none; margin-left:auto; margin-right:auto; }
