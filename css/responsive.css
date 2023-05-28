@@ -4748,13 +4748,13 @@
 }
 
 @media (max-width: 767px) {
-    .card-stack .card-stack-header{
+    .stack-cards-item .stack-cards-header{
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
         flex-direction: column-reverse;
     }
-    .card-stack .card-stack-header img{
+    .stack-cards-item .stack-cards-header img{
        margin-bottom: 20px;
     }
     /* reset */

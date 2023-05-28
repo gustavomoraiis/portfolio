@@ -332,6 +332,6 @@
 .light .bg-black{
   background-color: #e67e22 !important;
 }
-.dark .card-stack .card-stack-header img{
+.dark .stack-cards-item .stack-cards-header img{
   filter: brightness(0) invert(1);
 }
