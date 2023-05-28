@@ -108,6 +108,9 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .parallax-title { padding: 16px 35px; display: inline-block }
 
 /* text color, link color and link hover color */
+.text-green, .btn-link.text-green, a.text-green-hover:hover { color: #069e2d; }
+.text-light-green, .btn-link.text-light-green, a.text-light-green-hover:hover { color:#2FFF1Cff; }
+
 .text-white, .btn-link.text-white, a.text-white-hover:hover { color:#fff; }
 .text-black, .btn-link.text-black,  a.text-black-hover:hover { color:#000; }
 .text-extra-dark-gray, .btn-link.text-extra-dark-gray, a.text-extra-dark-gray-hover:hover { color:#232323; }
@@ -146,7 +149,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .text-purple, .btn-link.text-purple, a.text-purple-hover:hover { color: #502e95; }
 .text-medium-purple, .btn-link.text-medium-purple, a.text-medium-purple-hover:hover { color: #3a285e; }
 .text-dark-purple, .btn-link.text-dark-purple, a.text-dark-purple-hover:hover { color: #333045; }
-.text-very-light-desert-storm, .btn-link.text-very-light-desert-storm, a.very-light-desert-storm:hover { color: #faf6f3; }
+.text-light, .btn-link.text-light, a.light:hover { color: #faf6f3; }
 .text-yellow-ochre, .btn-link.text-yellow-ochre, a.text-yellow-ochre-hover:hover { color: #c89965; }
 .text-yellow-ochre-light, .btn-link.text-yellow-ochre-light, a.text-yellow-ochre-light-hover:hover { color: #c3964e; }
 .text-fast-yellow, .btn-link.text-fast-yellow, a.text-fast-yellow-hover:hover { color: #F4D956; }
@@ -194,7 +197,6 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .text-gradient-fuego-turquoise, .btn-link.text-gradient-fuego-turquoise, a.text-gradient-fuego-turquoise, a.text-gradient-fuego-turquoise-hover:hover { background: linear-gradient(to left, #0cd6a2, #56de9c, #91dc5d, #aedb40, #c7da26); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .text-gradient-green { background: linear-gradient(to right, #069E2Dff, #0DAE2Aff, #14BE27ff, #1BCF25ff, #21DF22ff, #28EF1Fff, #2FFF1Cff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
-.text-light-green, .btn-link.text-light-green, a.text-light-green-hover:hover { color:#2FFF1Cff; }
 /* text stroke */
 .text-border { -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: white; }
 
@@ -321,6 +323,8 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 /* ===================================
     04. Background color
 ====================================== */
+.bg-green { background-color: #069e2d; }
+.bg-light-green { background-color: #2fff1c; }
 
 .bg-white { background-color:#FFF; }
 .bg-black { background-color:#000; }
@@ -368,7 +372,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-medium-desert-storm { background-color: #eee7de; }
 .bg-yellow-ochre-light { background-color: #c3964e; }
 .bg-yellow { background-color: #ffeb04; }
-.bg-very-light-desert-storm { background-color: #faf6f3 ; }
+.bg-light { background-color: #faf6f3 ; }
 .bg-light-blue { background-color: #F7F8FC; }
 .bg-penguin-white { background-color: #f1edea; }
 .bg-tussock { background-color: #bf8c4c; }
@@ -475,7 +479,23 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
     border-radius: 20px;
     border: 2px solid #2fff1c47;
 }
-.feature-box-bg-white-hover:hover  { background-color: #fff; }
+.feature-box-bg-white-hover:hover  { background-color: #069e2d; border: 2px solid #069e2d;}
+.feature-box-show-hover:hover .text-gradient-green {
+    background: linear-gradient(to right, #faf6f3, #faf6f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out; 
+    -webkit-transition: all 0.3s ease-in-out; 
+    -moz-transition: all 0.3s ease-in-out; 
+    -ms-transition: all 0.3s ease-in-out; 
+    -o-transition: all 0.3s ease-in-out; 
+}
+
+.feature-box-show-hover:hover .btn-transparent-green{
+    background: transparent;
+    border-color: #faf6f3;
+    color: #faf6f3;
+}
 
 /* ===================================
     05. Custom
@@ -794,6 +814,9 @@ input.btn:focus { border-width: 2px; }
 .btn.btn-iris-blue:hover, .btn.btn-iris-blue:focus { background: transparent; color: #00B8B8; }
 
 /* button only border */
+.btn.btn-transparent-green { background: transparent; border-color: #069e2d; color: #069e2d; }
+.btn.btn-transparent-green:hover, .btn.btn-transparent-green:focus { background: #069e2d; border-color: #069e2d; color: #232323; }
+
 .btn.btn-transparent-white { background: transparent; border-color: #ffffff; color: #ffffff; }
 .btn.btn-transparent-white:hover, .btn.btn-transparent-white:focus { background: #ffffff; border-color: #ffffff; color: #232323; }
 .btn.btn-transparent-black { background: transparent; border-color: #000000; color: #000000; }
@@ -806,8 +829,6 @@ input.btn:focus { border-width: 2px; }
 .btn.btn-transparent-medium-light-gray:hover, .btn.btn-transparent-medium-light-gray:focus { background: #dbdbdb; border-color: #dbdbdb; color: #232323; }
 .btn.btn-transparent-fast-blue { background: transparent; border-color: #0038e3; color: #0038e3; }
 .btn.btn-transparent-fast-blue:hover, .btn.btn-transparent-fast-blue:focus { background: #0038e3; border-color: #0038e3; color: #fff; }
-.btn.btn-transparent-green { background: transparent; border-color: #1dcf79; color: #1dcf79; }
-.btn.btn-transparent-green:hover, .btn.btn-transparent-green:focus { background: #1dcf79; border-color: #1dcf79; color: #fff; }
 .btn.btn-transparent-slate-blue { background: transparent; border-color: #262b35; color: #262b35; }
 .btn.btn-transparent-slate-blue:hover, .btn.btn-transparent-slate-blue:focus { background: #262b35; border-color: #262b35; color: #fff; }
 .btn.btn-transparent-medium-slate-blue { background: transparent; border-color: #374162; color: #374162; }
@@ -4946,14 +4967,16 @@ code {
     background-size: 300% 300%;
 }
 
+/* .card-stack */
 .card-stack {
     top: 60px;
     position: sticky;
-    /* box-shadow: 5px 5px 5px #2fff1c14; */
+ 
     margin-bottom: 40px;
     background: #101010;
     padding: 40px;
     border-radius: 20px;
+    border: 2px solid #2fff1c47;
 }
 
 .card-stack:nth-child(1n) {
@@ -4973,14 +4996,11 @@ code {
     justify-content: space-between;
     align-items: center;
 }
-
-.title-section h2{
-    font-weight: 600 !important;
-    color: #faf6f3;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+.card-stack-header img{
+    height: 50px;
 }
 
+/* title section */
 .title-section h2{
     font-weight: 600 !important;
     color: #faf6f3;
