@@ -615,13 +615,39 @@
 
         <!-- Portfolio start -->
         <section class="big-section bg-cod-gray border-top border-color-light-white-transparent">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="title-section margin-5-rem-bottom">
                     <h2>Portfolio</h2>
                 </div>
-                
+                <div class="col-12 position-relative">
+                    <div class="swiper-container text-center" 
+                        data-slider-options='{ "centeredSlides": true,"slidesPerView": 1, "loop": false, 
+                            "spaceBetween": 100,
+                            "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, 
+                            "autoplay": { "delay": 12000, "disableOnInteraction": false }, 
+                            "keyboard": { "enabled": true, "onlyInViewport": true }, 
+                            "breakpoints": { "1200": { "slidesPerView": 2 }, "992": { "slidesPerView": 3 }, "768": { "slidesPerView": 3 } } }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="https://envato.com/" target="_blank"><img alt="" src="images/portfolio/supermercado_vendramini.png"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img alt="" src="https://via.placeholder.com/1903x933"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" target="_blank"><img alt="" src="https://via.placeholder.com/1903x932"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-outer-bg"></div>
+                    </div>
+                    <!-- start slider navigation -->
+                    <!-- <div class="swiper-button-next-nav swiper-button-next rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i class="feather icon-feather-arrow-right"></i></div>
+                    <div class="swiper-button-previous-nav swiper-button-prev rounded-circle light slider-navigation-style-07 box-shadow-double-large"><i class="feather icon-feather-arrow-left"></i></div> -->
+                    <!-- end slider navigation -->
+                </div>
             </div>
-            
+             
+                
         </section>
         <!-- Portfolio end -->
 
