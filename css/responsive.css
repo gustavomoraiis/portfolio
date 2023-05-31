@@ -8009,3 +8009,9 @@
     .full-screen-auto { height: auto !important; }
 
 }
+
+@media (min-width: 1500px){
+    .portfolio-swiper{
+        height: 500px;
+    }
+}

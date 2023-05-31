@@ -5063,7 +5063,7 @@ code {
 
 
 /* carrousel swiper */
-.swiper-wrapper img {
+/* .swiper-wrapper img {
     width: 100%;
     transform: scale(0.85);
     transition: transform .3s cubic-bezier(0.2, 0.7, .3, 1);
@@ -5072,7 +5072,11 @@ code {
     width: 100%;
     transform: scale(1);
     transition: transform .3s cubic-bezier(0.2, 0.7, .3, 1);
-}
+} */
+/* .swiper-wrapper .swiper-slide img {
+   width: 250px;
+} */
+
 .swiper-container .swiper-outer-bg{
     content: '';
     position: absolute;
@@ -5082,7 +5086,7 @@ code {
     height: 100%;
     -webkit-background-size: contain;
     background-size: contain;
-    background-image: url(https://www.viptech.com.br/viptracker/images/device.png);
+    background-image: url(../images/mockup_notebook.png);
     background-repeat: no-repeat;
     background-position: center center;
     transform: translate(-50%, -50%);
