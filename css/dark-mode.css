@@ -327,7 +327,7 @@
 
 /* ######## CSS DARK ####### */
 .light .bg-cod-gray{
-    background-color: #faf6f3 !important;
+    background-color: rgb(43, 255, 0) !important;
 }
 .light .bg-black{
   background-color: #e67e22 !important;

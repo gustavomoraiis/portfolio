@@ -4748,6 +4748,9 @@
 }
 
 @media (max-width: 767px) {
+    .swiper-img {
+        max-width: 90%;
+    }
     .stack-cards-item .stack-cards-header{
         display: flex;
         align-items: center;
@@ -8008,10 +8011,4 @@
     /* height */
     .full-screen-auto { height: auto !important; }
 
-}
-
-@media (min-width: 1500px){
-    .portfolio-swiper{
-        height: 500px;
-    }
 }
