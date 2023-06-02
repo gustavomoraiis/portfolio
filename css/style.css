@@ -2427,14 +2427,17 @@ a.likes-count:hover {box-shadow: 0 0 10px rgba(23,23,23,.1); color: #232323}
 .social-icon-style-03 a.google,.social-icon-style-05 a.google span,.social-icon-style-04 a.google,.social-icon-style-09 a.google:hover, .social-icon-style-10 a.google span, .social-icon-style-11 a.google .social-back { background-color: #dc4a38; }
 .social-icon-style-03 a.dribbble,.social-icon-style-05 a.dribbble span,.social-icon-style-04 a.dribbble,.social-icon-style-09 a.dribbble:hover, .social-icon-style-10 a.dribbble span, .social-icon-style-11 a.dribbble .social-back { background-color: #ea4c89; }
 .social-icon-style-03 a.youtube,.social-icon-style-05 a.youtube span,.social-icon-style-04 a.youtube,.social-icon-style-09 a.youtube:hover, .social-icon-style-10 a.youtube span, .social-icon-style-11 a.youtube .social-back { background-color: #bb0000; }
-.social-icon-style-03 a.linkedin,.social-icon-style-05 a.linkedin span,.social-icon-style-04 a.linkedin,.social-icon-style-09 a.linkedin:hover, .social-icon-style-10 a.linkedin span, .social-icon-style-11 a.linkedin .social-back { background-color: #007bb6; }
-.social-icon-style-03 a.instagram,.social-icon-style-05 a.instagram span,.social-icon-style-04 a.instagram,.social-icon-style-09 a.instagram:hover, .social-icon-style-10 a.instagram span, .social-icon-style-11 a.instagram .social-back { background-color: #FE1F49; }
+.social-icon-style-03 a.linkedin,.social-icon-style-05 a.linkedin span,.social-icon-style-04 a.linkedin,.social-icon-style-09 a.linkedin:hover, .social-icon-style-10 a.linkedin span, .social-icon-style-11 a.linkedin .social-back { background-color: #0e76a8; }
+.social-icon-style-03 a.github,.social-icon-style-05 a.github span,.social-icon-style-04 a.github,.social-icon-style-09 a.github:hover, .social-icon-style-10 a.github span, .social-icon-style-11 a.github .social-back { background-color: #1f2328; }
+.social-icon-style-03 a.gitlab,.social-icon-style-05 a.gitlab span,.social-icon-style-04 a.gitlab,.social-icon-style-09 a.gitlab:hover, .social-icon-style-10 a.gitlab span, .social-icon-style-11 a.gitlab .social-back { background-color: #fca326; }
+.social-icon-style-03 a.spotify,.social-icon-style-05 a.spotify span,.social-icon-style-04 a.spotify,.social-icon-style-09 a.spotify:hover, .social-icon-style-10 a.spotify span, .social-icon-style-11 a.spotify .social-back { background-color: #1DB954; }
+.social-icon-style-03 a.instagram,.social-icon-style-05 a.instagram span,.social-icon-style-04 a.instagram,.social-icon-style-09 a.instagram:hover, .social-icon-style-10 a.instagram span, .social-icon-style-11 a.instagram .social-back { background-color: #833AB4; }
 .social-icon-style-03 a.pinterest,.social-icon-style-05 a.pinterest span,.social-icon-style-04 a.pinterest,.social-icon-style-09 a.pinterest:hover, .social-icon-style-10 a.pinterest span, .social-icon-style-11 a.pinterest .social-back { background-color: #CB2027; }
 .social-icon-style-03 a.flickr,.social-icon-style-05 a.flickr span,.social-icon-style-04 a.flickr,.social-icon-style-09 a.flickr:hover, .social-icon-style-10 a.flickr span, .social-icon-style-11 a.flickr .social-back { background-color: #ff0084; }
 .social-icon-style-03 a.rss,.social-icon-style-05 a.rss span,.social-icon-style-04 a.rss,.social-icon-style-09 a.rss:hover, .social-icon-style-10 a.rss span, .social-icon-style-11 a.rss .social-back { background-color: #f2890a; }
 .social-icon-style-03 a.behance,.social-icon-style-05 a.behance span,.social-icon-style-04 a.behance,.social-icon-style-09 a.behance:hover, .social-icon-style-10 a.behance span, .social-icon-style-11 a.behance .social-back { background-color: #1769ff; }
 .social-icon-style-03 a.vine,.social-icon-style-05 a.vine span,.social-icon-style-04 a.vine,.social-icon-style-09 a.vine:hover, .social-icon-style-10 a.vine span, .social-icon-style-11 a.vine .social-back { background-color: #00bf8f; }
-.social-icon-style-03 a.email,.social-icon-style-05 a.email span,.social-icon-style-04 a.email,.social-icon-style-09 a.email:hover, .social-icon-style-10 a.email span, .social-icon-style-11 a.email .social-back { background-color: #7d7d7d; }
+.social-icon-style-03 a.email,.social-icon-style-05 a.email span,.social-icon-style-04 a.email,.social-icon-style-09 a.email:hover, .social-icon-style-10 a.email span, .social-icon-style-11 a.email .social-back { background-color: #069e2d; }
 .social-icon-style-03 a.sms,.social-icon-style-05 a.sms span,.social-icon-style-04 a.sms,.social-icon-style-09 a.sms:hover, .social-icon-style-10 a.sms span, .social-icon-style-11 a.sms .social-back { background-color: #ffbd00; }
 .social-icon-style-03 a.sharethis,.social-icon-style-05 a.sharethis span,.social-icon-style-04 a.sharethis,.social-icon-style-09 a.sharethis:hover, .social-icon-style-10 a.sharethis span, .social-icon-style-11 a.sharethis .social-back { background-color: #95D03A; }
 .social-icon-style-03 a.reddit,.social-icon-style-05 a.reddit span,.social-icon-style-04 a.reddit,.social-icon-style-09 a.reddit:hover, .social-icon-style-10 a.reddit span, .social-icon-style-11 a.reddit .social-back { background-color: #ff4500; }
@@ -2831,7 +2834,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .sticky .navbar.navbar-dark.header-light .navbar-nav > .nav-item.dropdown.simple-dropdown:hover > a { color: rgba(0,0,0,0.6) !important; }
 
 /* header logo */
-header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 36px; }
+header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 60px; }
 header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: visible; opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 
@@ -2909,7 +2912,7 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 .menu-list-wrapper .mCustomScrollBox .mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y { -ms-flex-item-align: center; align-self: center; }
 .menu-list-wrapper .mCustomScrollBox .mCSB_container { width: 100%; -ms-flex-item-align: start; align-self: flex-start; }
 .menu-list li { clear: both; position: relative; list-style: none; }
-.menu-list li a { font-size: 20px; line-height: 28px; position: relative; color: #fff; padding: 14px 0; display: inline-block;  }
+.menu-list li a { font-size: 20px; line-height: 28px; position: relative; color: #fff; padding: 14px; display: inline-block;  }
 .menu-list li a i {margin-right: 10px; vertical-align: middle}
 .menu-list .menu-list-item .sub-menu-item li a { font-size: 13px; line-height: normal; color: #fff; padding: 0; }
 .menu-list .menu-list-item .sub-menu-item { position: relative; width: 100%; background-color: transparent; }
