@@ -2834,7 +2834,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .sticky .navbar.navbar-dark.header-light .navbar-nav > .nav-item.dropdown.simple-dropdown:hover > a { color: rgba(0,0,0,0.6) !important; }
 
 /* header logo */
-header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 60px; }
+header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 75px; }
 header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: visible; opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 
@@ -2912,8 +2912,8 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 .menu-list-wrapper .mCustomScrollBox .mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y { -ms-flex-item-align: center; align-self: center; }
 .menu-list-wrapper .mCustomScrollBox .mCSB_container { width: 100%; -ms-flex-item-align: start; align-self: flex-start; }
 .menu-list li { clear: both; position: relative; list-style: none; }
-.menu-list li a { font-size: 20px; line-height: 28px; position: relative; color: #fff; padding: 14px; display: inline-block;  }
-.menu-list li a i {margin-right: 10px; vertical-align: middle}
+.menu-list li a { font-size: 18px; line-height: 28px; position: relative; color: #fff; padding: 14px; display: inline-block;  }
+.menu-list li a i {margin-right: 10px; vertical-align: middle; color: #2FFF1Cff;}
 .menu-list .menu-list-item .sub-menu-item li a { font-size: 13px; line-height: normal; color: #fff; padding: 0; }
 .menu-list .menu-list-item .sub-menu-item { position: relative; width: 100%; background-color: transparent; }
 .menu-list .menu-list-item .sub-menu-item .sub-menu-item { padding-left: 15px; }
@@ -4537,7 +4537,7 @@ aside .instafeed-grid.gutter-double-extra-large { margin-left: -20px; margin-rig
     26. Footer
 ====================================== */
 
-footer .footer-logo img { max-height: 130px; }
+footer .footer-logo img { max-height: 200px; }
 footer ul {padding-left: 0; list-style: none;}
 footer ul li { margin-bottom: 7px; }
 footer ul li:last-child { margin-bottom: 0; }
