@@ -2835,6 +2835,7 @@
 
 /* Navigation breakpoint start */
 @media (max-width: 991px) {
+    .title-section h2 {font-size: 2.9rem;}
     .menu-list-wrapper.mCS_no_scrollbar .mCSB_inside>.mCSB_container .menu-list { padding-right: 0;}
     .menu-list-wrapper.mCS_no_scrollbar .mCSB_inside>.mCSB_container .menu-list-wrapper .menu-list { padding-right: 15px;}
     .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-xl { padding-right: 15px; padding-left: 15px; }
@@ -2907,7 +2908,7 @@
     .sidebar-wrapper, .page-wrapper { padding-left: 0; }
     .sidebar-nav-action { width: 100%; height: auto; padding: 15px 30px; }
     .sidebar-nav-action-main { flex-flow: row; align-items: center; }
-    .side-menu-header  { position: fixed; left: 0; top: 0; text-align: left !important; width: 100%; background-color: #fff; border-bottom: 1px solid #f3f3f3; padding: 15px 30px; z-index: 9; }
+    .side-menu-header  { position: fixed; left: 0; top: 0; text-align: left !important; width: 100%; background-color: #131313; border-bottom: 1px solid #2fff1c47; padding: 15px 30px; z-index: 9; }
     .side-menu-header .navbar-brand { z-index: 1; position: relative; }
     .side-menu-header-bottom, header.side-menu-nav { left:-290px; height: 100%; top: 0; padding-top: 60px; -webkit-box-align: start; -ms-flex-align: start; align-items: start; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-ransition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
     .side-menu-header-bottom { padding-top: 0; }

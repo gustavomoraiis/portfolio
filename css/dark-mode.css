@@ -327,11 +327,61 @@
 
 /* ######## CSS DARK ####### */
 .light .bg-cod-gray{
-    background-color: #faf6f3 !important;
+    background-color: #f7fff7;
 }
-.light .bg-black{
-  background-color: #e67e22 !important;
-}
+
 .dark .stack-cards-item .stack-cards-header img{
   filter: brightness(0) invert(1);
+}
+
+.light .bg-smoky-black{
+  background-color: #ffffff;
+}
+
+.light .menu-list li a{
+  color: #069e2d;
+}
+.light .menu-list .menu-list-item:hover > a{
+  color: #2FFF1Cff;
+}
+.light .title-section h2{
+  color: #069e2d;
+}
+.light .stack-cards-item{
+  background-color: #069e2d;
+}
+
+.light .big-section .text-gradient-green { 
+  background: linear-gradient(to right, #F8F9FA, #F8F9FA, #F8F9FA, #F8F9FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light .border-color-light-white-transparent{
+  border-color: #2fff1c47 !important
+}
+
+.light .portfolio-box .bg-smoky-black{
+  background-color: #069e2d;
+}
+
+.light .portfolio-box .bg-green{
+  background-color: #f7fff7;
+}
+
+.light .portfolio-box .text-white{
+  color: #069e2d !important;
+}
+
+.light .feature-box-bg-white-hover{
+  background-color: #069e2d;
+}
+
+.light .btn.btn-transparent-green{
+  border-color: #faf6f3;
+  color: #faf6f3;
+}
+
+.light .btn.btn-transparent-green:hover{
+  color: #069e2d;
 }
