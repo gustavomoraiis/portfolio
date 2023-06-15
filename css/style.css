@@ -481,7 +481,10 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
     border-radius: 20px;
     border: 2px solid #2fff1c47;
 }
-.feature-box-bg-white-hover:hover  { background-color: #069e2d; border: 2px solid #069e2d;}
+.feature-box-bg-white-hover:hover  { 
+    background-color: #069e2d; 
+    border: 2px solid #069e2d;
+}
 .feature-box-show-hover:hover .text-gradient-green {
     background: linear-gradient(to right, #faf6f3, #faf6f3);
     -webkit-background-clip: text;
@@ -2700,7 +2703,7 @@ header .navbar.responsive-sticky .navbar-brand img, .navbar.responsive-sticky .h
 .sidebar-nav-menu.left-sidebar-nav { position: fixed; width: 290px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between;}
 .left-sidebar-nav .menu-list li {list-style: none;}
 .left-sidebar-nav .menu-list .menu-list-item .sub-menu-item li:last-child {margin-bottom: 10px}
-.left-sidebar-nav .menu-list li a {font-size:22px; padding: 13px 0 14px; line-height: normal; }
+.left-sidebar-nav .menu-list li a {font-size:18px; padding: 8px 0px; line-height: normal; }
 .left-sidebar-nav .menu-list .menu-list-item .sub-menu-item li a {font-size:13px; padding:5px 0}
 .left-sidebar-nav .menu-toggle:before, .left-sidebar-nav .menu-toggle:after { right: 7px; top: 23px; height: 1px; width: 9px;}
 .left-sidebar-nav .sub-menu-item .menu-toggle { width: 30px; height: 30px; }

@@ -326,6 +326,13 @@
   }
 
 /* ######## CSS DARK ####### */
+.light .move-bottom-top .btn-link{
+  color: #069e2d !important;
+}
+.light .text-light{
+  color: #131313 !important;
+}
+
 .light .bg-cod-gray{
     background-color: #f7fff7;
 }
@@ -348,21 +355,17 @@
   color: #069e2d;
 }
 .light .stack-cards-item{
-  background-color: #069e2d;
+  background-color: #ffffff;
 }
 
 .light .big-section .text-gradient-green { 
-  background: linear-gradient(to right, #F8F9FA, #F8F9FA, #F8F9FA, #F8F9FA);
+  background: linear-gradient(to right, #069e2d, #069e2d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .light .border-color-light-white-transparent{
   border-color: #2fff1c47 !important
-}
-
-.light .portfolio-box .bg-smoky-black{
-  background-color: #069e2d;
 }
 
 .light .portfolio-box .bg-green{
@@ -374,14 +377,34 @@
 }
 
 .light .feature-box-bg-white-hover{
-  background-color: #069e2d;
+  background-color: #ffffff;
 }
 
 .light .btn.btn-transparent-green{
-  border-color: #faf6f3;
-  color: #faf6f3;
+  border-color: #069e2d;
+  color: #069e2d;
 }
 
 .light .btn.btn-transparent-green:hover{
-  color: #069e2d;
+  color: #fff;
+}
+
+.light .title-section h2:after{
+  color: #131313;
+}
+
+/* .light .title-section h2:before{
+  color: #131313;
+} */
+
+.light .btn-transparent-green .bg-white{
+  background-color: #069e2d !important;
+}
+
+.light .feature-box-bg-white-hover:hover  { 
+  border: 2px solid #2fff1c47;
+}
+
+.light .border-color-white-transparent{
+  border-color: #2fff1c47 !important;
 }
