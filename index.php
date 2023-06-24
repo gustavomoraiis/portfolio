@@ -5,10 +5,9 @@
     <title>Gustavo Morais | Portfolio</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="ThemeZaa">
+    <meta name="author" content="Gustavo Morais">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="description"
-        content="Litho is a clean and modern design, BootStrap 5 responsive, business and portfolio multipurpose HTML5 template with 37+ ready homepage demos.">
+    <meta name="description" content="Seja bem vindo ao meu portfolio!">
     <!-- favicon icon -->
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="apple-touch-icon" href="images/favicon.png">
@@ -24,6 +23,9 @@
     <link rel="stylesheet" type="text/css" href="css/settings.css">
     <link rel="stylesheet" type="text/css" href="css/layers.css">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
+    <?php
+        include('lang/lang.php')
+    ?>
 </head>
 
 <body id="body" class="">
@@ -89,10 +91,12 @@
                                     <span class="star star-8"></span>
                                 </label>
                             </div>
-                            <ul class="content-flags">
-                                <li><a href="#"><img class="active" src="images/brazil-flag.svg" alt=""></a></li>
-                                <li><a href="#"><img class="" src="images/usa-flag.svg" alt=""></a></li>
-                            </ul>
+                            <div class="content-flags">
+                                <form action="lang/change.php" method="POST">
+                                    <button type="submit" name="lang" value="br"><img class="active" src="images/brazil-flag.svg" alt="Brazil Flag"></button>
+                                    <button type="submit" name="lang" value="en"><img class="" src="images/usa-flag.svg" alt="USA Flag"></button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -188,8 +192,7 @@
                                         data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text"
                                         data-responsive="on" data-responsive_offset="on"
                                         data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"o:0;y:30;","to":"o:1;y:0;"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                        data-textAlign="['left','left','center','center']" style="z-index: 4;">Full
-                                        Stack
+                                        data-textAlign="['left','left','center','center']" style="z-index: 4;">Full Stack
                                     </div>
 
                                     <!-- STROKE LAYER SUBTITLE-->
@@ -245,13 +248,11 @@
             
                                 <ul class="list-style-02 mt-3 margin-3-rem-bottom">
                                     <li>
-                                        <i class="feather icon-feather-clock text-light-green position-relative margin-10px-right"
-                                            aria-hidden="true"></i>
+                                        <i class="feather icon-feather-clock text-light-green position-relative margin-10px-right" aria-hidden="true"></i>
                                         <span> Tempo integral - 1 ano e 5 meses</span>
                                     </li>
                                     <li>
-                                        <i class="feather icon-feather-map-pin text-light-green position-relative margin-10px-right"
-                                            aria-hidden="true"></i>
+                                        <i class="feather icon-feather-map-pin text-light-green position-relative margin-10px-right" aria-hidden="true"></i>
                                         <span> Campo Mourão/PR - Brasil</span>
                                     </li>
                                 </ul>
@@ -260,11 +261,10 @@
                                     <div class="process-step-item">
                                         <div class="process-content last-paragraph-no-margin">
                                             <h6 class="alt-font d-block font-weight-500 text-gradient-green mb-3">
-                                                Desenvolvedor
-                                                Junior III</h6>
-                                            <p class="mb-0"><i
-                                                    class="feather icon-feather-clock text-light-green position-relative margin-10px-right"
-                                                    aria-hidden="true"></i>Janeiro de 2023 até o momento - 5 meses
+                                                Desenvolvedor Junior III
+                                            </h6>
+                                            <p class="mb-0"><i class="feather icon-feather-clock text-light-green position-relative margin-10px-right" aria-hidden="true"></i>
+                                                Janeiro de 2023 até o momento - 5 meses
                                             </p>
                                             <p class="mb-0"><b>Competências:</b><br> </p>
                                             <ul class="list-style-05">

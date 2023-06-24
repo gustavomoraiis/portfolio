@@ -389,13 +389,6 @@
   color: #fff;
 }
 
-.light .title-section h2:after{
-  color: #131313;
-}
-
-/* .light .title-section h2:before{
-  color: #131313;
-} */
 
 .light .btn-transparent-green .bg-white{
   background-color: #069e2d !important;
@@ -407,4 +400,11 @@
 
 .light .border-color-white-transparent{
   border-color: #2fff1c47 !important;
+}
+
+@media(max-width: 991px) {
+  .light .side-menu-header{
+    background-color: #ffffff;
+   
+  }
 }
