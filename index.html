@@ -23,14 +23,14 @@
     <link rel="stylesheet" type="text/css" href="css/settings.css">
     <link rel="stylesheet" type="text/css" href="css/layers.css">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
-    <?php
+    <!-- <?php
         include('lang/lang.php')
-    ?>
+    ?> -->
 </head>
 
 <body id="body" class="">
     <div class="left-sidebar-wrapper" data-sticky_parent>
-        <!-- start left menu -->
+        <!-- Left menu start -->
         <header class="side-menu-nav bg-smoky-black border-color-white-transparent">
             <div class="left-sidebar-nav sidebar-nav-menu bg-smoky-black border-color-white-transparent padding-2-rem-lr padding-5-rem-tb md-padding-10-rem-top" data-sticky_column>
                 <div class="side-menu-header text-center">
@@ -48,7 +48,7 @@
                         </a>
                     </div>
                 </div>
-                <!-- start menu -->
+               
                 <div class="side-menu-header-bottom">
                     <div class="col-12 padding-15px-lr margin-10-half-rem-tb lg-margin-5-half-rem-tb md-margin-7-half-rem-tb sm-margin-6-rem-top md-no-margin-tb">
                         <ul class="menu-list alt-font">
@@ -66,7 +66,7 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- end menu -->
+                   
                     <div class="col-12 text-center padding-15px-lr padding-3-rem-top lg-padding-1-rem-tb lg-no-padding-bottom md-padding-3-rem-tb">
                         <div class="footer-holder">
                             <div class="content-toggle-dark-mode">
@@ -103,18 +103,16 @@
 
             </div>
         </header>
-        <!-- end left menu -->
+        <!-- Left menu end -->
 
-        <!-- start sidebar section -->
+        <!-- Sidebar start -->
         <div class="sidebar-wrapper" data-sticky_column>
-        <!-- start revolution slider section -->
+             <!-- Revolution slider start -->
             <section class="p-0 example home-photography">
                 <article class="content">
-                    <div id="rev_slider_33_1_wrapper" class="rev_slider_wrapper fullscreen-container rev-nav-ares-effect"
-                        data-alias="mask-showcase" data-source="gallery">
+                    <div id="rev_slider_33_1_wrapper" class="rev_slider_wrapper fullscreen-container rev-nav-ares-effect" data-alias="mask-showcase" data-source="gallery">
                         <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
-                        <div id="rev_slider_33_1" class="rev_slider fullscreenbanner bg-smoky-black" style="display:none;"
-                            data-version="5.4.1">
+                        <div id="rev_slider_33_1" class="rev_slider fullscreenbanner bg-smoky-black" style="display:none;"data-version="5.4.1">
                             <ul>
                                 <!-- SLIDE 01 -->
                                 <li data-index="rs-73" data-transition="fade" data-slotamount="default"
@@ -225,20 +223,24 @@
 
                 </article>
             </section>
-            <!-- end revolution slider section -->
+            <!-- Revolution slider end -->
 
             <!-- Experience start -->
             <section class="big-section bg-cod-gray" id="experience">
                 <div class="container">
                     <div class="title-section margin-5-rem-bottom">
-                        <h2>Experiência</h2>
+                        <h2>
+                            <span class="title-before"></span>
+                            <span id="titleExperience" title="Experiência"></span>
+                            <span class="title-after"></span>
+                        </h2>
                     </div>
 
                     <div class="row justify-content-center padding-45px-bottom">
 
                         <div class="stack-cards col-12 text-light">
 
-                            <article class="stack-cards-item p-4 p-lg-5 box-shadow-large wow animate__fadeIn" data-wow-delay="0.1s">
+                            <article class="stack-cards-item p-4 p-lg-5 box-shadow-large">
                                 <div class="stack-cards-header">
                                     <h4 class="alt-font font-weight-600 text-light d-block letter-spacing-minus-1px mb-0">
                                         Viptech Smart Solutions
@@ -306,7 +308,7 @@
                                 </div>
                             </article>
 
-                            <article class="stack-cards-item p-4 p-lg-5 box-shadow-large wow animate__fadeIn" data-wow-delay="0.1s">
+                            <article class="stack-cards-item p-4 p-lg-5 box-shadow-large">
                                 <div class="stack-cards-header">
                                     <h4 class="alt-font font-weight-600 text-light d-block letter-spacing-minus-1px mb-0">
                                         Datacampo - Negócios Inteligentes</h4>
@@ -391,7 +393,7 @@
                                 </div>
                             </article>
 
-                            <article class="stack-cards-item p-4 p-lg-5 box-shadow-large wow animate__fadeIn" data-wow-delay="0.1s">
+                            <article class="stack-cards-item p-4 p-lg-5 box-shadow-large">
                                 <div class="stack-cards-header">
                                     <h4 class="alt-font font-weight-600 text-light d-block letter-spacing-minus-1px mb-0">
                                         BLZ NET
@@ -444,12 +446,16 @@
             <section class="big-section bg-cod-gray border-top border-color-light-white-transparent" id="portfolio">
                 <div class="container-fluid">
                     <div class="title-section margin-5-rem-bottom">
-                        <h2>Portfolio</h2>
+                        <h2>
+                            <span class="title-before"></span>
+                            <span id="titlePortfolio" title="Portfolio"></span>
+                            <span class="title-after"></span>
+                        </h2>
                     </div>
                     
                     <div class="row">
                         <div class="col-12 filter-content">
-                            <ul class="portfolio-classic portfolio-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
+                            <ul class="portfolio-classic portfolio-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-2col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
                                 <li class="grid-sizer"></li>
                                 
                                 <li class="grid-item photography wow animate__fadeIn" data-wow-delay="0.2s">
@@ -546,37 +552,41 @@
             <section class="big-section bg-cod-gray border-top border-color-light-white-transparent" id="education">
                 <div class="container">
                     <div class="title-section margin-5-rem-bottom">
-                        <h2>Formação</h2>
+                        <h2>
+                            <span class="title-before"></span>
+                            <span id="titleEducation" title="Formação"></span>
+                            <span class="title-after"></span>
+                        </h2>
                     </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 justify-content-center">
                         
-                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom">
-                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large  wow animate__fadeIn" data-wow-delay="0.2s">
+                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom padding-3-rem-bottom">
+                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large wow animate__fadeIn" data-wow-delay="0.1s">
                                 <div class="feature-box-move-bottom-top padding-3-rem-tb padding-4-rem-lr md-padding-2-rem-tb md-padding-2-half-rem-lr sm-padding-3-rem-tb sm-padding-4-half-rem-lr">
                                     <div class="feature-box-content last-paragraph-no-margin">
-                                        <img class="margin-3-rem-bottom" src="images/logos/logo_integrado.png" alt="Logo Centro Universitário Integrado">
+                                        <img class="margin-3-rem-bottom" src="images/logos/logo_google.png" alt="Logo Google">
                                         <h5 class="text-gradient-green text-extra-large font-weight-600 d-block margin-10px-bottom alt-font">
-                                            Tecnologia em Análise e Desenvolvimento de Sistemas
+                                            Certificação em Fundamentos do design da experiência do usuário (UX)
                                         </h5>
                                         <ul class="list-style-02 margin-1-rem-bottom">
                                             <li><i class="feather icon-feather-clock text-light-green position-relative margin-10px-right"aria-hidden="true"></i>
-                                                <span class="text-light">2019 - 2021</span>
+                                                <span class="text-light">2023 - em andamento</span>
                                             </li>
                                         </ul>
-                                        <a href="https://www.grupointegrado.br/graduacao/presencial/tecnologia-em-analise-e-desenvolvimento-de-sistemas" target="_blank" class="btn btn-medium btn-transparent-green btn-slide-right-bg btn-round-edge">
+                                        <a href="https://www.coursera.org/learn/fundamentos-do-design-da-experiencia-do-usuario-ux/home/info" target="_blank" class="btn btn-medium btn-transparent-green btn-slide-right-bg btn-round-edge">
                                             <i class="feather icon-feather-file-text"></i> 
                                             Visualizar ementa<span class="bg-white"></span>
                                         </a>
                                     </div>
                                     <div class="move-bottom-top margin-15px-top">
-                                        <a href="images/docs/DIPLOMA_TADS.png" title="Diploma - TADS - Gustavo Morais" class="btn btn-link btn-extra-large text-light lightbox-group-gallery-item"><i class="feather icon-feather-star"></i> Visualizar certificado</a>
+                                        <a href="#" title="#" class="btn btn-link btn-extra-large text-light lightbox-group-gallery-item"><i class="feather icon-feather-star"></i> Visualizar certificado</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom">
-                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large wow animate__fadeIn" data-wow-delay="0.4s">
+                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom padding-3-rem-bottom">
+                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large wow animate__fadeIn" data-wow-delay="0.2s">
                                 <div class="feature-box-move-bottom-top padding-3-rem-tb padding-4-rem-lr md-padding-2-rem-tb md-padding-2-half-rem-lr sm-padding-3-rem-tb sm-padding-4-half-rem-lr">
                                     <div class="feature-box-content last-paragraph-no-margin">
                                         <img class="margin-3-rem-bottom" src="images/logos/logo_anhanguera.png" alt="Logo Anhanguera">
@@ -585,7 +595,7 @@
                                         </h5>
                                         <ul class="list-style-02 margin-1-rem-bottom">
                                             <li><i class="feather icon-feather-clock text-light-green position-relative margin-10px-right"aria-hidden="true"></i>
-                                                <span class="text-light">2022 - 2023 | 10 Meses</span>
+                                                <span class="text-light">2022 - 2023 | 10 meses</span>
                                             </li>
                                         </ul>
                                         <a href="https://www.posanhanguera.com.br/desenvolvimento-front-end-anhanguera-educacao-a-distancia/p?homeSearch=true" target="_blank" class="btn btn-medium btn-transparent-green btn-slide-right-bg btn-round-edge">
@@ -600,17 +610,42 @@
                             </div>
                         </div>
 
-                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom">
-                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large wow animate__fadeIn" data-wow-delay="0.6s">
+                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom padding-3-rem-bottom">
+                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large  wow animate__fadeIn" data-wow-delay="0.3s">
+                                <div class="feature-box-move-bottom-top padding-3-rem-tb padding-4-rem-lr md-padding-2-rem-tb md-padding-2-half-rem-lr sm-padding-3-rem-tb sm-padding-4-half-rem-lr">
+                                    <div class="feature-box-content last-paragraph-no-margin">
+                                        <img class="margin-3-rem-bottom" src="images/logos/logo_integrado.png" alt="Logo Centro Universitário Integrado">
+                                        <h5 class="text-gradient-green text-extra-large font-weight-600 d-block margin-10px-bottom alt-font">
+                                            Graduação em Tecnologia em Análise e Desenvolvimento de Sistemas
+                                        </h5>
+                                        <ul class="list-style-02 margin-1-rem-bottom">
+                                            <li><i class="feather icon-feather-clock text-light-green position-relative margin-10px-right"aria-hidden="true"></i>
+                                                <span class="text-light">2019 - 2021 | 3 anos</span>
+                                            </li>
+                                        </ul>
+                                        <a href="https://www.grupointegrado.br/graduacao/presencial/tecnologia-em-analise-e-desenvolvimento-de-sistemas" target="_blank" class="btn btn-medium btn-transparent-green btn-slide-right-bg btn-round-edge">
+                                            <i class="feather icon-feather-file-text"></i> 
+                                            Visualizar ementa<span class="bg-white"></span>
+                                        </a>
+                                    </div>
+                                    <div class="move-bottom-top margin-15px-top">
+                                        <a href="images/docs/DIPLOMA_TADS.png" title="Diploma - TADS - Gustavo Morais" class="btn btn-link btn-extra-large text-light lightbox-group-gallery-item"><i class="feather icon-feather-star"></i> Visualizar certificado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col md-margin-30px-bottom xs-margin-15px-bottom padding-3-rem-bottom">
+                            <div class="feature-box text-start feature-box-show-hover box-shadow-large-hover feature-box-bg-white-hover overflow-hidden box-shadow-large wow animate__fadeIn" data-wow-delay="0.4s">
                                 <div class="feature-box-move-bottom-top padding-3-rem-tb padding-4-rem-lr md-padding-2-rem-tb md-padding-2-half-rem-lr sm-padding-3-rem-tb sm-padding-4-half-rem-lr">
                                     <div class="feature-box-content last-paragraph-no-margin">
                                         <img class="margin-3-rem-bottom" src="images/logos/logo_bit.png" alt="Logo BIT Control">
                                         <h5 class="text-gradient-green text-extra-large font-weight-600 d-block margin-10px-bottom alt-font">
-                                            New Fast English II - Básico<br>Athus - Intermediário I
+                                            Certificação em New Fast English II - Básico<br>Athus - Intermediário I
                                         </h5>
                                         <ul class="list-style-02 margin-1-rem-bottom">
                                             <li><i class="feather icon-feather-clock text-light-green position-relative margin-10px-right"aria-hidden="true"></i>
-                                                <span class="text-light">2016 - 2018 | 23 Meses</span>
+                                                <span class="text-light">2016 - 2018 | 23 meses</span>
                                             </li>
                                         </ul>
                                         <a href="https://www.bitprofissoes.com.br/segmentos/ingles" target="_blank" class="btn btn-medium btn-transparent-green btn-slide-right-bg btn-round-edge">
@@ -635,7 +670,11 @@
             <section class="big-section bg-cod-gray border-top border-color-light-white-transparent" id="skills">
                 <div class="container">
                     <div class="title-section margin-5-rem-bottom">
-                        <h2>Competências</h2>
+                        <h2>
+                            <span class="title-before"></span>
+                            <span id="titleSkills" title="Competências"></span>
+                            <span class="title-after"></span>
+                        </h2>
                     </div>
                     <div class="row row-cols-3 row-cols-sm-3 row-cols-md-4 row-cols-lg-5  client-logo-style-07 justify-content-center">
                     
@@ -677,7 +716,7 @@
             <!-- Skills end -->
 
             <!-- Footer start -->
-            <footer class="footer-dark padding-50px-tb bg-cod-gray border-top border-color-light-white-transparent wow animate__fadeIn">
+            <footer class="footer-dark padding-50px-tb bg-cod-gray border-top border-color-light-white-transparent">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 text-center margin-40px-bottom">
@@ -701,24 +740,21 @@
             </footer>
             <!-- Footer end -->
         </div>
-        <!-- end sidebar section -->
+        <!-- Siddebar end -->
 
     </div>
 
-    <!-- start scroll to top -->
     <a class="scroll-top-arrow" href="javascript:void(0);"><i class="feather icon-feather-chevron-up"></i></a>
-    <!-- end scroll to top  -->
 
-    <!-- javascript -->
+    <!-- Javascript -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/theme-vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/dark-mode.js"></script>
 
-    <!-- revolution js files -->
+    <!-- Revolution js files -->
     <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-
     <script type="text/javascript">
         var revapi263,
             tpj;
@@ -804,6 +840,40 @@
             }
             ; /* END OF ON LOAD FUNCTION */
         }()); /* END OF WRAPPING FUNCTION */
+    </script>
+
+    <!-- Typeit js files -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        const experience = document.getElementById("titleExperience");
+        const portfolio = document.getElementById("titlePortfolio");
+        const education = document.getElementById("titleEducation");
+        const skills = document.getElementById("titleSkills");
+
+        new TypeIt("#titleExperience", {
+            strings: experience.title,
+            speed: 50,
+            waitUntilVisible: true,
+            breakLines: false
+        }).go();
+        new TypeIt("#titlePortfolio", {
+            strings: portfolio.title,
+            speed: 50,
+            waitUntilVisible: true,
+            breakLines: false
+        }).go();
+        new TypeIt("#titleEducation", {
+            strings: education.title,
+            speed: 50,
+            waitUntilVisible: true,
+            breakLines: false
+        }).go();
+        new TypeIt("#titleSkills", {
+            strings: skills.title,
+            speed: 50,
+            waitUntilVisible: true,
+            breakLines: false
+        }).go();
     </script>
 </body>
 

@@ -334,10 +334,10 @@
 }
 
 .light .bg-cod-gray{
-    background-color: #f7fff7;
+    background-color: #ffffff;
 }
 
-.dark .stack-cards-item .stack-cards-header img{
+.dark .stack-cards-item .stack-cards-header img, .dark #education .feature-box-content img{
   filter: brightness(0) invert(1);
 }
 
@@ -395,7 +395,7 @@
 }
 
 .light .feature-box-bg-white-hover:hover  { 
-  border: 2px solid #2fff1c47;
+  border: 1px solid rgba(255,255,255,0.1);
 }
 
 .light .border-color-white-transparent{
